@@ -1,0 +1,8 @@
+version = "0.1.0"
+description = "OS X plutil plist manipulation"
+requires = "result process"
+archive(byte) = "plutil.cma"
+archive(byte, plugin) = "plutil.cma"
+archive(native) = "plutil.cmxa"
+archive(native, plugin) = "plutil.cmxs"
+exists_if = "plutil.cma"
